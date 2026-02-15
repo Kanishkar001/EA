@@ -1,60 +1,133 @@
-<!-- ========================================================= -->
-<!--                 ELITE TRADER REPOSITORY                   -->
-<!-- ========================================================= -->
-
-<p align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=SMC%20MASTER%20PRO%20EA&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
-
-</p>
-
-<p align="center">
-
-### 🚀 Institutional Smart Money Concepts Trading System
-
-</p>
-
-<p align="center">
-
-![MT5](https://img.shields.io/badge/Platform-MetaTrader%205-blue?style=for-the-badge)
-![Language](https://img.shields.io/badge/Language-MQL5-orange?style=for-the-badge)
-![Strategy](https://img.shields.io/badge/Strategy-Smart%20Money%20Concepts-green?style=for-the-badge)
-![Automation](https://img.shields.io/badge/Trading-Automated-purple?style=for-the-badge)
-![Version](https://img.shields.io/badge/Version-3.0-red?style=for-the-badge)
-
-</p>
+# 📈 SMC Master Pro EA v3.0 Enhanced
+### Advanced Smart Money Concepts Trading Expert Advisor (MT5)
 
 ---
 
-# 🧠 About The System
+## 📌 About This Project
 
-**SMC Master Pro EA v3.0 Enhanced** is a professional institutional-logic Expert Advisor built for **MetaTrader 5**.
+**SMC Master Pro EA v3.0 Enhanced** is a professional automated trading system developed for **MetaTrader 5 (MT5)** using **MQL5**.  
+The Expert Advisor implements advanced **Smart Money Concepts (SMC)** combined with the **Trading Hub Juka Method**, delivering institutional-style market analysis and automated trade execution.
 
-This system applies advanced **Smart Money Concepts (SMC)** and the **Trading Hub Juka Method** to analyze real market behavior instead of relying on lagging indicators.
+The system integrates multi-timeframe structure analysis, liquidity detection, order flow evaluation, and advanced confirmation models to identify high-probability trading opportunities.
 
-It simulates how institutional traders operate by tracking:
-
-- Market Structure
-- Liquidity Sweeps
-- Order Flow
-- Imbalance Zones
-- Multi-Timeframe Alignment
+This project is designed to simulate **institutional trading logic** rather than traditional indicator-based strategies.
 
 ---
 
-# 🎯 Trading Philosophy
+## 🎯 Project Objective
 
-> Markets move because liquidity is hunted — not because indicators signal.
+Retail traders often rely on lagging indicators that fail in volatile markets.  
+This EA focuses on:
 
-The EA trades using:
+- Market structure behavior
+- Liquidity movements
+- Institutional order placement zones
+- Smart entry confirmations
 
-✅ Structure shifts  
-✅ Liquidity manipulation  
-✅ Institutional entry zones  
-✅ Multi-timeframe confirmation  
-✅ Risk-controlled automation
+The goal is to trade **with smart money**, not against it.
 
 ---
 
-# ⚙️ Strategy Engine Architecture
+## ⚙️ Core Features
 
+### 🧠 Smart Money Concepts (SMC)
+Implements **27+ institutional trading concepts**, including:
+
+- Market Structure (HH, HL, LL, LH)
+- Break of Structure (BOS)
+- Change of Character (CHoCH)
+- Liquidity Grabs & Liquidity Sweeps
+- Fair Value Gaps (FVG)
+- Order Blocks (OB)
+- Supply & Demand Zones
+- SMT Divergence
+- QML Pattern Detection
+- Session Liquidity Analysis
+- Institutional Funding Candles
+
+Full concept implementation explained in documentation. :contentReference[oaicite:0]{index=0}
+
+---
+
+### 📊 Multi-Timeframe Analysis
+The EA analyzes multiple timeframes simultaneously:
+
+| Analysis TF | Trade TF | Style |
+|-------------|----------|-------|
+| M15 → M1 | Scalping |
+| H1 → M5 | Day Trading |
+| H4 → M15 | Swing Trading |
+| D1 → H1 | Position Trading |
+
+Alignment across timeframes increases trade confidence.
+
+---
+
+### 🎯 Trading Hub Juka Method
+Advanced confirmation engine:
+
+- Higher Timeframe Trend Validation
+- Multi-TF Alignment Scoring
+- Smart Entry at FVG / Order Block
+- Setup Quality Rating System
+
+Setup Quality Levels:
+- **Excellent**
+- **Good**
+- **Fair**
+- **Weak**
+
+---
+
+### 💰 Risk & Money Management
+Professional capital protection system:
+
+- Dynamic lot size calculation
+- Risk % per trade
+- Daily loss limits
+- Max drawdown protection
+- Break-even automation
+- Trailing stop logic
+- Partial profit closing
+
+Configured directly inside EA inputs. :contentReference[oaicite:1]{index=1}
+
+---
+
+### 🔎 Advanced Market Analysis
+The EA continuously scans for:
+
+- Trendlines & Channels
+- Double Top / Double Bottom
+- Symmetric Triangles
+- Fibonacci retracement zones
+- Impulse & Correction waves
+- Order flow imbalance
+- Correlated pair divergence
+
+---
+
+### ⏱️ Smart Filters
+- News event filter
+- Volatility (ATR) filter
+- Session-based trading
+- Consolidation detection
+- Time & weekend protection
+
+---
+
+## 🧱 Technology Stack
+
+| Technology | Purpose |
+|------------|---------|
+| MQL5 | Trading Logic |
+| MetaTrader 5 | Execution Platform |
+| Smart Money Concepts | Strategy Model |
+| Multi-TF Analysis | Market Validation |
+
+---
+
+## 🚀 Installation
+
+1. Open MetaTrader 5
+2. Go to:
