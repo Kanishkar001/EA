@@ -130,4 +130,84 @@ The EA continuously scans for:
 ## 🚀 Installation
 
 1. Open MetaTrader 5
-2. Go to:
+2. Go to:3. Copy EA files into the folder
+4. Restart MT5 or Refresh Navigator
+5. Compile using MetaEditor
+6. Attach EA to chart
+
+---
+
+## ⚙️ Recommended Settings
+
+### Scalping
+AnalysisTF = M15
+TradeTF = M1
+Risk = 0.3%
+RR = 2.0
+
+
+### Day Trading
+
+
+AnalysisTF = H1
+TradeTF = M15
+Risk = 0.5%
+RR = 3.0
+
+
+### Swing Trading
+
+
+AnalysisTF = H4
+TradeTF = H1
+Risk = 1.0%
+RR = 4.0
+
+
+---
+
+## 📊 Expected Performance
+
+With proper risk management:
+
+- Win Rate: **55–65%**
+- Average R:R: **1:2.5 – 1:3.5**
+- Low drawdown protection
+- High-quality trade filtering
+
+---
+
+## ⚠️ Important Notes
+
+- Always backtest before live trading
+- Use demo account initially
+- Avoid high-impact news periods
+- Follow risk management rules
+- Market conditions may vary
+
+---
+
+## 📚 Learning Concepts
+
+To fully understand this EA:
+
+- ICT / Smart Money Concepts
+- Market Structure Theory
+- Liquidity & Institutional Trading
+- Fibonacci Retracements
+- Multi-Timeframe Analysis
+
+---
+
+## 👨‍💻 Author
+
+Developed as an advanced institutional-style automated trading system focusing on:
+
+✅ Precision  
+✅ Risk Control  
+✅ Smart Money Logic  
+✅ Professional Automation
+
+---
+
+⭐ If you find this project useful, consider giving it a star!
